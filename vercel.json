@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "functions": {
+    "api/generate.js": {
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/generate",
+      "dest": "/api/generate.js"
+    }
+  ]
+}
